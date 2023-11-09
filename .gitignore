@@ -16,3 +16,5 @@ prod.env
 TODO.md
 TODO_ETH.md
 nginx.conf
+frontend/biodex-upload-key.keystore
+archive
