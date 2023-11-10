@@ -16,7 +16,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/5217c1e1-d606-485a-82db-db8bd1b001d3"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -35,6 +36,14 @@
         "WRITE_EXTERNAL_STORAGE",
         "READ_EXTERNAL_STORAGE"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5217c1e1-d606-485a-82db-db8bd1b001d3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
