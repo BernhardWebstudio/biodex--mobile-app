@@ -3,9 +3,6 @@
     "version": ">= 5.7.0"
   },
   "build": {
-    "preview": {
-      "distribution": "internal"
-    },
     "base": {
       "node": "18.18.0"
     },
@@ -14,8 +11,17 @@
       "extends": "base",
       "distribution": "internal"
     },
+    "preview": {
+      "extends": "base",
+      "channel": "staging",
+      "distribution": "internal"
+    },
     "production": {
-      "extends": "base"
+      "extends": "base",
+      "channel": "production"
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
